@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calzado</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body class="container-fluid">
+
+    <header class="navbar navbar-expand-lg miFondo">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img class="miLogo" src="../img1/logo.jpg" alt="Imágen del Logo BartoShoes">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link  miLink" aria-current="page" href="../index.html">Inicio</a>
+                    <li class="nav-item">
+                        <a class="nav-link  miLink" aria-current="page" href="historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link miLink" href="calzado.html">Calzado</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link miLink" href="ubicacion.html">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link miLink" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img1/slide1.webp" class="d-block w-100" alt="urbana1 fideos">
+            </div>
+            <div class="carousel-item">
+                <img src="../img1/slide2.webp" class="d-block w-100" alt="urbana Slide">
+            </div>
+            <div class="carousel-item">
+                <img src="../img1/slide3.webp" class="d-block w-100" alt="urbana2 Slide">
+            </div>
+            <div class="carousel-item">
+                <img src="../img1/silde4.webp" class="d-block w-100" alt="urbana2 Slide">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+  
+    <div class="tituloProductos mt-3">
+        <h2>Productos</h2>
+    </div>
+
+    <div class="row">
+
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="../img1/borcego.jpg" class="card-img-top" alt="Borcego">
+                <div class="card-body">
+                    <h5 class="card-title">Borcego</h5>
+                    <p class="card-text">Para todo terreno</p>
+                    <a href="#" class="btn colorBtn">Lo Quiero</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="../img1/urbana.jpg" class="card-img-top" alt="Urbanas">
+                <div class="card-body">
+                    <h5 class="card-title">Urbanas</h5>
+                    <p class="card-text">Adaptate a la comodidad</p>
+                    <a href="#" class="btn colorBtn">Lo Quiero</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="../img1/lona.jpg" class="card-img-top" alt="Lona">
+                <div class="card-body">
+                    <h5 class="card-title">Lona</h5>
+                    <p class="card-text">Clasica Para tus recitales</p>
+                    <a href="#" class="btn colorBtn">Lo Quiero</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <button type="button" class="btn colorBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Comprar
+        </button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Lo Quiero</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ¿Estas seguro que quieres adquirirlo?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn colorBtn" data-bs-dismiss="modal">NO</button>
+                        <button type="button" class="btn colorBtn">Si, ya!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Productos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; Siguiendo tus pasos, Paraná Entre Rios</p>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
